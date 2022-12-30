@@ -21,4 +21,5 @@ for job_element in job_elements:
     print(location_element.text.strip())
     print()
 
-
+python_jobs = results.find_all("h2", string="Python")
+print(python_jobs)
