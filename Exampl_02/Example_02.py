@@ -22,5 +22,6 @@ for p in entry_content.find_all("p"):
     if match:
         contenu.append(p)
 
-for val in contenu:
-    print(val.split("<br>"))
+print(contenu)
+# for val in contenu:
+#     print(val.split("<br>"))

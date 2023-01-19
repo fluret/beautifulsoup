@@ -20,5 +20,6 @@ for p in soup.find_all("p"):
                 contenu.append(element.previous_sibling.strip())
             # if element.name is None:
             #     contenu.append(element.strip())
-
+            if element.name == 'div':
+                print(element.next_sibling)
 print(contenu)
